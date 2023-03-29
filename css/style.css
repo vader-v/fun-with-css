@@ -1,0 +1,65 @@
+body{
+  background-color: #0f5f60;
+}
+
+main, div, footer, header {
+  border: white ;
+}
+
+main {
+  width: 300px;
+}
+
+header{
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.rating {
+  height: 100px;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.billing {
+  height: 125px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  height: 75px;
+  display: flex;
+}
+footer > div{
+  width: 50%;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > :first-child {
+  background-color: #66d189;
+}
+
+footer > :last-child {
+  background-color: #5abd7c;
+}
+
+img {
+  width: 100px;
+  border-radius: 133px;
+  border: 3px solid #0f5f60;
+}
